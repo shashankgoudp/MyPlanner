@@ -9,7 +9,9 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 
 public class MainActivity extends ActionBarActivity implements View.OnClickListener {
@@ -45,22 +47,30 @@ public class MainActivity extends ActionBarActivity implements View.OnClickListe
 
 
 
-    public void buttonOnClick(View v)
-    {
+    public void buttonOnClick(View v) {
 
-//        Button button = (Button) v;
-//        ((Button) v).setText("Signup");
 
-        Intent i=new Intent(MainActivity.this, HomeScreenActivity.class);
-        startActivity(i);
+        EditText UserName = (EditText) findViewById(R.id.UnityIDBox);
+        EditText password = (EditText) findViewById(R.id.PasswordBox);
 
+        String username_text = UserName.getText().toString();
+        String password_text = password.getText().toString();
+
+        if (username_text.equals(password_text)) {
+            Intent i = new Intent(MainActivity.this, HomeScreenActivity.class);
+            startActivity(i);
+        } else {
+
+            Toast.makeText(MainActivity.this, "User Name and Password do not match. Try again", Toast.LENGTH_LONG).show();
+
+        }
     }
-
 
     public void onClick(View v)
     {
 
         Intent i=new Intent(MainActivity.this, ForgotPassword.class);
+
         startActivity(i);
 
     }
