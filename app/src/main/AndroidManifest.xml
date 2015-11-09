@@ -28,6 +28,18 @@
             android:name=".PasswordSent"
             android:label="@string/title_activity_password_sent" >
         </activity>
+        <activity
+            android:name=".Customize_Updates"
+            android:label="@string/title_activity_customize__updates" >
+        </activity>
+        <activity
+            android:name=".MyPack_Customization"
+            android:label="@string/title_activity_my_pack__customization" >
+        </activity>
+        <activity
+            android:name=".MyPack_Updates"
+            android:label="@string/title_activity_my_pack__updates" >
+        </activity>
     </application>
 
 </manifest>

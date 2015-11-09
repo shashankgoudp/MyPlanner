@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+        <TextView android:text="My Planner" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/Title"
+            android:textSize="32sp"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="My Pack"
+            android:textColor="#000000"
+            android:textSize="32sp"
+            android:id="@+id/welcome"
+            android:layout_below="@+id/Title"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/underlinedText_eBills"
+            android:textColor="#000000"
+            android:id="@+id/eBills"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="onClick"
+            android:layout_below="@+id/welcome"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignRight="@+id/deadlines"
+            android:layout_alignEnd="@+id/deadlines">
+        </Button>
+
+
+
+        <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="DeadLines "
+            android:textColor="#000000"
+            android:id="@+id/deadlines"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="onClick"
+            android:layout_below="@+id/eBills"
+            android:layout_alignLeft="@+id/welcome"
+            android:layout_alignStart="@+id/welcome">
+        </Button>
+
+        <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enrollment"
+            android:textColor="#000000"
+            android:id="@+id/enroll"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="onClick"
+
+            android:layout_below="@+id/deadlines"
+            android:layout_alignLeft="@+id/POW"
+            android:layout_alignStart="@+id/POW">
+        </Button>
+
+        <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Plan Of Work"
+            android:textColor="#000000"
+            android:id="@+id/POW"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="onClick"
+
+            android:layout_below="@+id/enroll"
+            android:layout_alignLeft="@+id/ApplyForGrad"
+            android:layout_alignStart="@+id/ApplyForGrad">
+        </Button>
+
+
+        <Button android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply For Graduation"
+            android:textColor="#000000"
+            android:id="@+id/ApplyForGrad"
+            android:textSize="24sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:onClick="onClick"
+
+            android:layout_below="@+id/POW"
+            android:layout_alignLeft="@+id/eBills"
+            android:layout_alignStart="@+id/eBills">
+        </Button>
+
+    </RelativeLayout>
+</ScrollView>
