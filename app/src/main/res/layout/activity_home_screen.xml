@@ -40,7 +40,7 @@
         android:textSize="24sp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:onClick="onClick"
+        android:onClick="onMyPackUpdatesClick"
 
         android:layout_below="@+id/welcome"
         android:layout_alignParentLeft="true"

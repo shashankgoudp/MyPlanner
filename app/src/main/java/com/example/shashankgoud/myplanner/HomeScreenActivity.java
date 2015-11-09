@@ -46,4 +46,11 @@ public class HomeScreenActivity extends ActionBarActivity {
         Intent i=new Intent(HomeScreenActivity.this, Customize_Updates.class);
         startActivity(i);
     }
+
+
+
+    public void onMyPackUpdatesClick(View view) {
+        Intent i=new Intent(HomeScreenActivity.this, MyPack_Updates.class);
+        startActivity(i);
+    }
 }

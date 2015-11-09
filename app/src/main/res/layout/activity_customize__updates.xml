@@ -40,7 +40,7 @@
             android:textSize="24sp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
-            android:onClick="onClick"
+            android:onClick="onMyPackClick"
             android:layout_below="@+id/welcome"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
@@ -60,7 +60,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
             android:layout_below="@+id/mypack"
-            android:onClick="onClick"
+            android:onClick="onCourseCustomizeClick"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true">
         </Button>
@@ -74,7 +74,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:onClick="onClick"
+            android:onClick="onCourseCustomizeClick"
 
             android:layout_below="@+id/hci"
             android:layout_alignParentLeft="true"
@@ -90,7 +90,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginRight="20dp"
-            android:onClick="onClick"
+            android:onClick="onCourseCustomizeClick"
 
             android:layout_below="@+id/os"
             android:layout_alignParentLeft="true"

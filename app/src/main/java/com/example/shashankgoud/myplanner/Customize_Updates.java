@@ -1,9 +1,11 @@
 package com.example.shashankgoud.myplanner;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class Customize_Updates extends ActionBarActivity {
@@ -36,4 +38,17 @@ public class Customize_Updates extends ActionBarActivity {
 
         return super.onOptionsItemSelected(item);
     }
+
+
+    public void onMyPackClick(View view) {
+        Intent i=new Intent(Customize_Updates.this, MyPack_Customization.class);
+        startActivity(i);
+    }
+
+
+    public void onCourseCustomizeClick(View view) {
+        Intent i=new Intent(Customize_Updates.this, CourseCustomize.class);
+        startActivity(i);
+    }
+
 }
