@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:fillViewport="false">
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent" android:layout_height="match_parent">
+
+
+        <TextView android:text="My Planner" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:id="@+id/Title"
+            android:textSize="32sp"
+            android:background="#FF0000"
+            android:textColor="#FFFFFF"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Human Computer Interaction"
+            android:textColor="#000000"
+            android:textSize="25dp"
+            android:id="@+id/UnityID"
+            android:layout_below="@+id/Title"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="42dp"
+            android:layout_marginLeft="10dp"
+            />
+
+        <CheckBox android:id="@+id/checkbox_Piazza"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Piazza"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/UnityID"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <CheckBox android:id="@+id/checkbox_InstNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Instructor Notes"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/checkbox_Piazza"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            />
+        <CheckBox android:id="@+id/checkbox_UnreadNotification"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Unread Notifications"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/checkbox_InstNotes"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            />
+        <RadioButton android:id="@+id/radio_LastWeek"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Week"
+            android:onClick="onRadioButtonClicked"
+            android:layout_below="@+id/checkbox_UnreadNotification"
+            android:layout_marginLeft="15dp"
+            />
+        <RadioButton android:id="@+id/radio_Last3Days"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last 3 days"
+            android:onClick="onRadioButtonClicked"
+            android:layout_below="@+id/checkbox_UnreadNotification"
+            android:layout_alignLeft="@+id/radio_LastWeek"
+            android:layout_marginLeft="100dp"
+            />
+
+
+
+
+        <CheckBox android:id="@+id/checkbox_CourseWebsite"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course Website"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/radio_Last3Days2"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <CheckBox android:id="@+id/checkbox_LectureSlides"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lecture Slides"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/checkbox_CourseWebsite"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            />
+        <CheckBox android:id="@+id/checkbox_LectureNotes"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lecture Notes"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/checkbox_LectureSlides"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            />
+        <RadioButton android:id="@+id/radio_LastWeek3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Week"
+            android:onClick="onRadioButtonClicked"
+            android:layout_below="@+id/checkbox_LectureNotes"
+            android:layout_marginLeft="15dp"
+            />
+        <RadioButton android:id="@+id/radio_Last3Days3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last 3 days"
+            android:onClick="onRadioButtonClicked"
+            android:layout_below="@+id/checkbox_LectureNotes"
+            android:layout_alignLeft="@+id/radio_LastWeek"
+            android:layout_marginLeft="100dp"
+            />
+
+        <CheckBox android:id="@+id/checkbox_Moodle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Moodle"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/radio_LastWeek"
+            android:textSize="20dp"
+            android:layout_marginLeft="15dp"
+            />
+        <CheckBox android:id="@+id/checkbox_Announcements"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Announcements"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/checkbox_Moodle"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            />
+        <CheckBox android:id="@+id/checkbox_PendingAssignments"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pending Assignments"
+            android:onClick="onCheckboxClicked"
+            android:layout_below="@+id/checkbox_Announcements"
+            android:textSize="16dp"
+            android:layout_marginLeft="30dp"
+            />
+        <RadioButton android:id="@+id/radio_LastWeek2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last Week"
+            android:onClick="onRadioButtonClicked"
+            android:layout_below="@+id/checkbox_PendingAssignments"
+            android:layout_marginLeft="15dp"
+            />
+        <RadioButton android:id="@+id/radio_Last3Days2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Last 3 days"
+            android:onClick="onRadioButtonClicked"
+            android:layout_below="@+id/checkbox_PendingAssignments"
+            android:layout_alignLeft="@+id/radio_LastWeek"
+            android:layout_marginLeft="100dp"
+            />
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Save"
+            android:id="@+id/button_Save"
+            android:layout_below="@+id/radio_Last3Days3"
+            android:layout_marginTop="20dp"
+            android:onClick="buttonOnClick"
+            android:layout_marginLeft="100dp"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:text="Clear"
+            android:id="@+id/button_Clear"
+            android:layout_below="@+id/radio_Last3Days3"
+            android:layout_marginTop="20dp"
+            android:onClick="buttonOnClick"
+            android:layout_marginLeft="200dp"
+            />
+
+
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+</ScrollView>

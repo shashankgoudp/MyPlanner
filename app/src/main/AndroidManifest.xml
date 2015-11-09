@@ -28,6 +28,11 @@
             android:name=".PasswordSent"
             android:label="@string/title_activity_password_sent" >
         </activity>
+        <activity
+            android:name=".CourseCustomize"
+            android:label="@string/title_activity_course_customize"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
