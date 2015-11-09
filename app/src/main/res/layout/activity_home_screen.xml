@@ -97,7 +97,7 @@
         android:layout_height="wrap_content"
         android:text="Software Engineering"
         android:textColor="#000000"
-        android:id="@+id/SE"
+        android:id="@+id/se"
         android:textSize="24sp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
@@ -108,6 +108,55 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true">
     </Button>
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Internet Protocols"
+        android:textColor="#000000"
+        android:id="@+id/ip"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="onClick"
+
+        android:layout_below="@+id/se"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </Button>
+
+    <Button android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Artificial Intelligence"
+        android:textColor="#000000"
+        android:id="@+id/ai"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:onClick="onClick"
+
+        android:layout_below="@+id/ip"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </Button>
+
+    <Button android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Customize"
+        android:textColor="#000000"
+        android:id="@+id/customize"
+        android:textSize="24sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginRight="20dp"
+        android:onClick="onClick"
+
+        android:layout_below="@+id/ai"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+    </Button>
+
 
 </RelativeLayout>
 </ScrollView>
