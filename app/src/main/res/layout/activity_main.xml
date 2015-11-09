@@ -1,0 +1,109 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <TextView android:text="My Planner" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:id="@+id/Title"
+        android:textSize="32dp"
+        android:background="#FF0000"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:gravity="center"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unity ID"
+        android:textColor="#000000"
+        android:textSize="32dp"
+        android:id="@+id/UnityID"
+        android:layout_below="@+id/Title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="42dp"
+
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#000000"
+        android:textSize="32dp"
+        android:id="@+id/Password"
+        android:layout_below="@+id/UnityID"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="10dp"
+        />
+
+
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/PasswordBox"
+        android:layout_below="@+id/UnityID"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:background="@drawable/textview_border"
+        android:layout_alignBottom="@+id/Password"
+        android:layout_toRightOf="@+id/Password"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+
+
+        />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:id="@+id/UnityIDBox"
+        android:background="@drawable/textview_border"
+        android:layout_alignTop="@+id/UnityID"
+        android:layout_alignLeft="@+id/PasswordBox"
+        android:layout_alignStart="@+id/PasswordBox"
+        android:layout_alignBottom="@+id/UnityID"
+
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="@string/login_string"
+        android:id="@+id/LoginButton"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:onClick="buttonOnClick" />
+
+    <TextView android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/underlinedText"
+        android:textColor="#000000"
+        android:autoLink="web"
+        android:id="@+id/ForgotPassword"
+        android:textSize="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
+
+        android:layout_below="@+id/LoginButton"
+        android:layout_alignLeft="@+id/LoginButton"
+        android:layout_alignStart="@+id/LoginButton"
+        android:layout_marginTop="42dp">
+
+        </TextView>
+
+
+</RelativeLayout>
