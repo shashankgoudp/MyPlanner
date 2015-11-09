@@ -29,9 +29,16 @@
             android:label="@string/title_activity_password_sent" >
         </activity>
         <activity
-            android:name=".CourseCustomize"
-            android:label="@string/title_activity_course_customize"
-            android:theme="@style/AppTheme.NoActionBar" >
+            android:name=".Customize_Updates"
+            android:label="@string/title_activity_customize__updates" >
+        </activity>
+        <activity
+            android:name=".MyPack_Customization"
+            android:label="@string/title_activity_my_pack__customization" >
+        </activity>
+        <activity
+            android:name=".MyPack_Updates"
+            android:label="@string/title_activity_my_pack__updates" >
         </activity>
     </application>
 

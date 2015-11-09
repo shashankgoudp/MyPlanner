@@ -7,9 +7,14 @@
     <string name="website">www.codeherenow.com</string>
     <string name="underlinedText"><u>Forgot Password ?</u></string>
     <string name="underlinedText_mypack"><u>My Pack notifications</u></string>
+    <string name="underlinedText_mypack_upd"><u>My Pack</u></string>
     <string name="title_activity_home_screen">HomeScreenActivity</string>
     <string name="title_activity_forgot_password">ForgotPassword</string>
     <string name="title_activity_password_sent">PasswordSent</string>
-    <string name="title_activity_course_customize">CourseCustomize</string>
+    <string name="title_activity_customize__updates">Customize_Updates</string>
+    <string name="title_activity_my_pack__customization">MyPack_Customization</string>
+    <string name="title_activity_my_pack__updates">MyPack_Updates</string>
+    <string name="underlinedText_eBills"><u>eBills</u></string>
+
 
 </resources>
