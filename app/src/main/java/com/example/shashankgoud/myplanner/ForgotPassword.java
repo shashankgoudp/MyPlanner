@@ -1,9 +1,11 @@
 package com.example.shashankgoud.myplanner;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 
 public class ForgotPassword extends ActionBarActivity {
@@ -34,5 +36,13 @@ public class ForgotPassword extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void buttonOnClick(View v)
+    {
+
+        Intent i=new Intent(ForgotPassword.this, PasswordSent.class);
+        startActivity(i);
+
     }
 }
