@@ -40,6 +40,11 @@
             android:name=".MyPack_Updates"
             android:label="@string/title_activity_my_pack__updates" >
         </activity>
+        <activity
+            android:name=".CourseUpdates"
+            android:label="@string/title_activity_course_updates"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
