@@ -1,6 +1,9 @@
 .gradle
 /local.properties
 /.idea/workspace.xml
+/app/app.iml
+/.idea/misc.xml
+/.idea/gradle.xml
 /.idea/libraries
 .DS_Store
 /build
