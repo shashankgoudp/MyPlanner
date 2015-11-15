@@ -25,5 +25,6 @@
     <string name="underlinedText_CourseWebsiteUpdates"><u>Course Website</u></string>
     <string name="underlinedText_CourseWebsiteUpdatesid1"><u>Lecture Videos</u></string>
     <string name="underlinedText_CourseWebsiteUpdatesid2"><u>Lecture Notes</u></string>
+    <string name="title_activity_course_customize2">course_customize2</string>
 
 </resources>
