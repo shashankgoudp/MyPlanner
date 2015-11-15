@@ -47,7 +47,7 @@ public class Customize_Updates extends ActionBarActivity {
 
 
     public void onCourseCustomizeClick(View view) {
-        Intent i=new Intent(Customize_Updates.this, CourseCustomize.class);
+        Intent i=new Intent(Customize_Updates.this, CourseCustomization.class);
         startActivity(i);
     }
 
