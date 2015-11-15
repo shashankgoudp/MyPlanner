@@ -23,7 +23,7 @@
         android:layout_height="wrap_content"
         android:text="Unity ID"
         android:textColor="#000000"
-        android:textSize="32dp"
+        android:textSize="20dp"
         android:id="@+id/UnityID"
         android:layout_below="@+id/Title"
         android:layout_alignParentLeft="true"
@@ -38,7 +38,7 @@
         android:layout_height="wrap_content"
         android:text="Password"
         android:textColor="#000000"
-        android:textSize="32dp"
+        android:textSize="20dp"
         android:id="@+id/Password"
         android:layout_below="@+id/UnityID"
         android:layout_alignParentLeft="true"
@@ -60,7 +60,7 @@
         android:background="@drawable/textview_border"
         android:layout_alignBottom="@+id/Password"
         android:layout_toRightOf="@+id/Password"
-        android:layout_marginLeft="10dp"
+        android:layout_marginLeft="50dp"
         android:layout_marginTop="20dp"
 
 
@@ -94,16 +94,15 @@
         android:textColor="#000000"
         android:autoLink="web"
         android:id="@+id/ForgotPassword"
-        android:textSize="20sp"
+        android:textSize="15dp"
         android:onClick="onClick"
         android:clickable="true"
-        android:gravity="center"
 
-        android:layout_centerInParent="true"
         android:layout_below="@+id/LoginButton"
-        android:layout_alignLeft="@+id/LoginButton"
-        android:layout_alignStart="@+id/LoginButton"
-        android:layout_marginTop="42dp">
+
+        android:layout_marginTop="42dp"
+        android:layout_marginLeft="115dp"
+    >
 
         </TextView>
 
