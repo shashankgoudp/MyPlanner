@@ -21,9 +21,9 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Welcome user"
+        android:text="Welcome User!"
         android:textColor="#000000"
-        android:textSize="32sp"
+        android:textSize="20dp"
         android:id="@+id/welcome"
         android:layout_below="@+id/Title"
         android:layout_marginTop="20dp"
@@ -34,10 +34,10 @@
 
     <Button android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/underlinedText_mypack"
+        android:text="MyPack Notifications"
         android:textColor="#FF0000"
         android:id="@+id/mypack"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:onClick="onMyPackUpdatesClick"
@@ -52,7 +52,7 @@
         android:layout_height="wrap_content"
         android:text="Courses:"
         android:textColor="#000000"
-        android:textSize="40dp"
+        android:textSize="30dp"
         android:id="@+id/courses"
         android:layout_below="@+id/mypack"
         android:layout_alignParentLeft="true"
@@ -66,7 +66,7 @@
         android:text="Human Computer Interaction"
         android:textColor="#000000"
         android:id="@+id/hci"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
@@ -82,7 +82,7 @@
         android:text="Operating Systems"
         android:textColor="#000000"
         android:id="@+id/os"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginRight="20dp"
         android:layout_marginLeft="20dp"
@@ -98,7 +98,7 @@
         android:text="Software Engineering"
         android:textColor="#000000"
         android:id="@+id/se"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -114,7 +114,7 @@
         android:text="Internet Protocols"
         android:textColor="#000000"
         android:id="@+id/ip"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -130,7 +130,7 @@
         android:text="Artificial Intelligence"
         android:textColor="#000000"
         android:id="@+id/ai"
-        android:textSize="24sp"
+        android:textSize="20dp"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -141,21 +141,19 @@
         android:layout_alignParentStart="true">
     </Button>
 
-    <Button android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Customize"
-        android:textColor="#000000"
-        android:id="@+id/customize"
-        android:textSize="24sp"
-        android:layout_marginTop="20dp"
-        android:layout_marginLeft="100dp"
-        android:layout_marginRight="20dp"
+    <ImageButton
+        android:id="@+id/settingsButton"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/gear"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="45dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="10dp"
         android:onClick="customizeClick"
-
-        android:layout_below="@+id/ai"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
+        />
 
 
 </RelativeLayout>

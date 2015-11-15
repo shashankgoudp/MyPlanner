@@ -45,6 +45,11 @@
             android:label="@string/title_activity_course_updates"
             android:theme="@style/AppTheme.NoActionBar" >
         </activity>
+        <activity
+            android:name=".course_customize2"
+            android:label="@string/title_activity_course_customize2"
+            android:theme="@style/AppTheme.NoActionBar" >
+        </activity>
     </application>
 
 </manifest>
