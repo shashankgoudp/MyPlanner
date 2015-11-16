@@ -21,9 +21,9 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Pack"
+            android:text="My Pack Updates"
             android:textColor="#000000"
-            android:textSize="32sp"
+            android:textSize="25sp"
             android:id="@+id/welcome"
             android:layout_below="@+id/Title"
             android:layout_marginTop="20dp"
@@ -31,84 +31,96 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
-
-        <Button android:layout_width="wrap_content"
+        <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/underlinedText_eBills"
+            android:text="New eBill has been posted"
             android:textColor="#000000"
-            android:id="@+id/eBills"
-            android:textSize="24sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:onClick="onClick"
+            android:autoLink="web"
+            android:id="@+id/eBill"
+            android:textSize="20dp"
+            android:onClick="gotoPiazza"
+            android:clickable="true"
             android:layout_below="@+id/welcome"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/deadlines"
-            android:layout_alignEnd="@+id/deadlines">
-        </Button>
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="30dp">
 
+        </TextView>
 
-
-        <Button android:layout_width="fill_parent"
+        <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="DeadLines "
+            android:text="Final ETD Deadline"
             android:textColor="#000000"
-            android:id="@+id/deadlines"
-            android:textSize="24sp"
+            android:autoLink="web"
+            android:id="@+id/ETDDeadline"
+            android:textSize="20dp"
+            android:onClick="gotoPiazza"
+            android:clickable="true"
+            android:layout_below="@+id/eBill"
             android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:onClick="onClick"
-            android:layout_below="@+id/eBills"
-            android:layout_alignLeft="@+id/welcome"
-            android:layout_alignStart="@+id/welcome">
-        </Button>
+            android:layout_marginLeft="30dp">
 
-        <Button android:layout_width="fill_parent"
+        </TextView>
+
+        <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Enrollment"
+            android:text="Privacy Settings Reminder"
             android:textColor="#000000"
-            android:id="@+id/enroll"
-            android:textSize="24sp"
+            android:autoLink="web"
+            android:id="@+id/PrivacySettingsReminder"
+            android:textSize="20dp"
+            android:onClick="gotoPiazza"
+            android:clickable="true"
+            android:layout_below="@+id/ETDDeadline"
             android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:onClick="onClick"
+            android:layout_marginLeft="30dp">
 
-            android:layout_below="@+id/deadlines"
-            android:layout_alignLeft="@+id/POW"
-            android:layout_alignStart="@+id/POW">
-        </Button>
+        </TextView>
 
-        <Button android:layout_width="fill_parent"
+
+        <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Plan Of Work"
+            android:text="Spring Semester Enrollment Start Date: Oct 20 2015"
             android:textColor="#000000"
+            android:autoLink="web"
+            android:id="@+id/Enrollment"
+            android:textSize="20dp"
+            android:onClick="gotoPiazza"
+            android:clickable="true"
+            android:layout_below="@+id/PrivacySettingsReminder"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp">
+
+        </TextView>
+
+        <TextView android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Plan of Work Due Date: Nov 4 2015"
+            android:textColor="#000000"
+            android:autoLink="web"
             android:id="@+id/POW"
-            android:textSize="24sp"
+            android:textSize="20dp"
+            android:onClick="gotoPiazza"
+            android:clickable="true"
+            android:layout_below="@+id/Enrollment"
             android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:onClick="onClick"
+            android:layout_marginLeft="30dp">
 
-            android:layout_below="@+id/enroll"
-            android:layout_alignLeft="@+id/ApplyForGrad"
-            android:layout_alignStart="@+id/ApplyForGrad">
-        </Button>
+        </TextView>
 
-
-        <Button android:layout_width="fill_parent"
+        <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Apply For Graduation"
+            android:text="Apply for Graduation Due Date: Nov 4 2015"
             android:textColor="#000000"
-            android:id="@+id/ApplyForGrad"
-            android:textSize="24sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:onClick="onClick"
-
+            android:autoLink="web"
+            android:id="@+id/AFG"
+            android:textSize="20dp"
+            android:onClick="gotoPiazza"
+            android:clickable="true"
             android:layout_below="@+id/POW"
-            android:layout_alignLeft="@+id/eBills"
-            android:layout_alignStart="@+id/eBills">
-        </Button>
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp">
+
+        </TextView>
 
     </RelativeLayout>
 </ScrollView>
