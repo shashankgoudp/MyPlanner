@@ -40,12 +40,17 @@
             android:name=".MyPack_Updates"
             android:label="@string/title_activity_my_pack__updates" >
         </activity>
-        <activity
-            android:name=".CourseUpdates"
-            android:label="@string/title_activity_course_updates"
-            android:theme="@style/AppTheme.NoActionBar" >
-        </activity>
         <activity android:name=".CourseCustomization" >
+        </activity>
+        <activity android:name=".piazza_redirect" >
+        </activity>
+        <activity android:name=".MoodleRedirect" >
+        </activity>
+        <activity android:name=".CourseWebsiteRedirect" >
+        </activity>
+        <activity android:name=".CourseUpdates" >
+        </activity>
+        <activity android:name=".PiazzaRedirect" >
         </activity>
     </application>
 

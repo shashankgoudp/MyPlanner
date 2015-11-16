@@ -40,7 +40,7 @@
             android:autoLink="web"
             android:id="@+id/PiazzaUpdates"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoPiazza"
             android:clickable="true"
             android:layout_below="@+id/HCI"
             android:layout_marginTop="20dp"
@@ -55,7 +55,7 @@
             android:autoLink="web"
             android:id="@+id/PiazzaUpdatesid1"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoPiazza"
             android:clickable="true"
             android:layout_below="@+id/PiazzaUpdates"
             android:layout_marginTop="10dp"
@@ -70,7 +70,7 @@
             android:autoLink="web"
             android:id="@+id/PiazzaUpdatesid2"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoPiazza"
             android:clickable="true"
             android:layout_below="@+id/PiazzaUpdatesid1"
             android:layout_marginTop="10dp"
@@ -87,7 +87,7 @@
             android:autoLink="web"
             android:id="@+id/MoodleUpdates"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoMoodle"
             android:clickable="true"
             android:layout_below="@+id/PiazzaUpdatesid2"
             android:layout_marginTop="20dp"
@@ -102,7 +102,7 @@
             android:autoLink="web"
             android:id="@+id/MoodleUpdatesid1"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoMoodle"
             android:clickable="true"
             android:layout_below="@+id/MoodleUpdates"
             android:layout_marginTop="10dp"
@@ -117,16 +117,13 @@
             android:autoLink="web"
             android:id="@+id/MoodleUpdatesid2"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoMoodle"
             android:clickable="true"
             android:layout_below="@+id/MoodleUpdatesid1"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="25dp">
 
         </TextView>
-
-
-
 
         <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -135,7 +132,7 @@
             android:autoLink="web"
             android:id="@+id/CourseWebsiteUpdates"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoCourseWebsite"
             android:clickable="true"
             android:layout_below="@+id/MoodleUpdatesid2"
             android:layout_marginTop="20dp"
@@ -150,7 +147,7 @@
             android:autoLink="web"
             android:id="@+id/CourseWebsiteUpdatesid1"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoCourseWebsite"
             android:clickable="true"
             android:layout_below="@+id/CourseWebsiteUpdates"
             android:layout_marginTop="10dp"
@@ -165,21 +162,13 @@
             android:autoLink="web"
             android:id="@+id/CourseWebsiteUpdatesid2"
             android:textSize="20dp"
-            android:onClick="onClick"
+            android:onClick="gotoCourseWebsite"
             android:clickable="true"
             android:layout_below="@+id/CourseWebsiteUpdatesid1"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="25dp">
 
         </TextView>
-
-
-
-
-
-
-
-
 
     </RelativeLayout>
 </ScrollView>
