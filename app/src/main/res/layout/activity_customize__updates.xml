@@ -18,6 +18,19 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
+        <ImageButton
+            android:id="@+id/settingsButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/gear"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="320dp"
+            />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -27,7 +40,7 @@
             android:id="@+id/welcome"
             android:layout_below="@+id/Title"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="60dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 

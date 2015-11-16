@@ -13,6 +13,7 @@ public class Customize_Updates extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Customize Updates");
         setContentView(R.layout.activity_customize__updates);
     }
 

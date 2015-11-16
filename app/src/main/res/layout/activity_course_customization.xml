@@ -164,7 +164,7 @@
             android:id="@+id/button_Save"
             android:layout_below="@+id/radio_Last3Days3"
             android:layout_marginTop="20dp"
-            android:onClick="buttonOnClick"
+            android:onClick="onCourseCustomizeSaveClick"
             android:layout_marginLeft="100dp"
             />
 
@@ -175,7 +175,7 @@
             android:id="@+id/button_Clear"
             android:layout_below="@+id/radio_Last3Days3"
             android:layout_marginTop="20dp"
-            android:onClick="buttonOnClick"
+            android:onClick="clearOnClick"
             android:layout_marginLeft="200dp"
             />
 
