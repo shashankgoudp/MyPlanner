@@ -26,9 +26,10 @@
             android:layout_alignParentRight="true"
             android:src="@drawable/gear"
             android:scaleType="fitCenter"
-            android:layout_marginTop="45dp"
+            android:layout_marginTop="60dp"
             android:layout_marginLeft="120dp"
             android:layout_marginRight="320dp"
+            android:background="@android:color/transparent"
             />
 
         <TextView
@@ -40,7 +41,7 @@
             android:id="@+id/welcome"
             android:layout_below="@+id/Title"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="70dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
@@ -53,75 +54,68 @@
             android:id="@+id/Adjustcourses"
             android:layout_below="@+id/welcome"
             android:layout_marginTop="5dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginLeft="70dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
 
-        <Button android:layout_width="wrap_content"
+        <TextView android:layout_width="257dp"
             android:layout_height="wrap_content"
-            android:text="@string/underlinedText_mypack_upd"
+            android:text="My Pack"
             android:textColor="#000000"
-            android:id="@+id/mypack"
-            android:textSize="20sp"
-            android:layout_marginTop="80dp"
-            android:layout_marginLeft="20dp"
+            android:autoLink="web"
+            android:id="@+id/MyPack"
+            android:textSize="20dp"
             android:onClick="onMyPackClick"
+            android:clickable="true"
             android:layout_below="@+id/Adjustcourses"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true"
-            android:layout_alignRight="@+id/hci"
-            android:layout_alignEnd="@+id/hci">
-        </Button>
+            android:layout_marginTop="50dp"
+            android:layout_marginLeft="35dp"
+            android:elevation="10dp" />
 
 
 
-        <Button android:layout_width="fill_parent"
+        <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Human Computer Interaction"
             android:textColor="#000000"
-            android:id="@+id/hci"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_below="@+id/mypack"
+            android:autoLink="web"
+            android:id="@+id/HCITextView"
+            android:textSize="20dp"
             android:onClick="onCourseCustomizeClick"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
-        </Button>
+            android:clickable="true"
+            android:layout_below="@+id/MyPack"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="35dp"
+            android:elevation="10dp" />
 
-        <Button android:layout_width="fill_parent"
+        <TextView android:layout_width="257dp"
             android:layout_height="wrap_content"
             android:text="Operating Systems"
             android:textColor="#000000"
-            android:id="@+id/os"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
+            android:autoLink="web"
+            android:id="@+id/OSTextView"
+            android:textSize="20dp"
             android:onClick="onCourseCustomizeClick"
+            android:clickable="true"
+            android:layout_below="@+id/HCITextView"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="35dp"
+            android:elevation="10dp" />
 
-            android:layout_below="@+id/hci"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
-        </Button>
-
-        <Button android:layout_width="fill_parent"
+        <TextView android:layout_width="257dp"
             android:layout_height="wrap_content"
             android:text="Software Engineering"
             android:textColor="#000000"
-            android:id="@+id/SE"
-            android:textSize="20sp"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
+            android:autoLink="web"
+            android:id="@+id/SETextView"
+            android:textSize="20dp"
             android:onClick="onCourseCustomizeClick"
-
-            android:layout_below="@+id/os"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true">
-        </Button>
+            android:clickable="true"
+            android:layout_below="@+id/OSTextView"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="35dp"
+            android:elevation="10dp" />
 
     </RelativeLayout>
 </ScrollView>

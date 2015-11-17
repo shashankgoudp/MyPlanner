@@ -1,9 +1,13 @@
 package com.example.shashankgoud.myplanner;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.CheckBox;
+import android.widget.RadioButton;
 
 
 public class MyPack_Customization extends ActionBarActivity {
@@ -35,5 +39,23 @@ public class MyPack_Customization extends ActionBarActivity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void saveMyPackOnClick(View view) {
+        Intent i=new Intent(MyPack_Customization.this, Customize_Updates.class);
+        startActivity(i);
+    }
+
+    public void clearMyPackOnClick(View view) {
+        final CheckBox checkBox1 = (CheckBox) findViewById(R.id.checkBox1);
+        final CheckBox checkBox2 = (CheckBox) findViewById(R.id.checkBox2);
+
+        if (checkBox1.isChecked()) {
+            checkBox1.setChecked(false);
+        }
+        if (checkBox2.isChecked()) {
+            checkBox2.setChecked(false);
+        }
+
     }
 }

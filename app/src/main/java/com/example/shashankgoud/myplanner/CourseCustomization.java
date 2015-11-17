@@ -83,7 +83,7 @@ public class CourseCustomization extends AppCompatActivity {
     }
 
     public void onCourseCustomizeSaveClick(View view) {
-        Intent i=new Intent(CourseCustomization.this, HomeScreenActivity.class);
+        Intent i=new Intent(CourseCustomization.this, Customize_Updates.class);
         startActivity(i);
     }
 }
