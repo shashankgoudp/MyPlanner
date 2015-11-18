@@ -19,18 +19,32 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
+        <ImageButton
+            android:id="@+id/settingsButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checklist"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="300dp"
+            android:background="@android:color/transparent"
+            />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Human Computer Interaction"
             android:textColor="#000000"
-            android:textSize="25dp"
+            android:textSize="22dp"
             android:id="@+id/HCI"
             android:layout_below="@+id/Title"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="42dp"
-            android:layout_marginLeft="10dp"
+            android:layout_marginTop="17dp"
+            android:layout_marginLeft="90dp"
             />
 
         <TextView android:layout_width="wrap_content"

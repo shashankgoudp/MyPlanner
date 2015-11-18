@@ -18,16 +18,30 @@
             android:layout_alignParentRight="true"
             android:layout_alignParentEnd="true" />
 
+        <ImageButton
+            android:id="@+id/settingsButton"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/checklist"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="120dp"
+            android:layout_marginRight="300dp"
+            android:background="@android:color/transparent"
+            />
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="My Pack Updates"
             android:textColor="#000000"
-            android:textSize="25sp"
+            android:textSize="22sp"
             android:id="@+id/welcome"
             android:layout_below="@+id/Title"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="80dp"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
@@ -42,7 +56,7 @@
             android:clickable="true"
             android:layout_below="@+id/welcome"
             android:layout_marginTop="50dp"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="15dp">
 
         </TextView>
 
@@ -57,7 +71,7 @@
             android:clickable="true"
             android:layout_below="@+id/eBill"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="15dp">
 
         </TextView>
 
@@ -72,7 +86,7 @@
             android:clickable="true"
             android:layout_below="@+id/ETDDeadline"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="15dp">
 
         </TextView>
 
@@ -88,7 +102,7 @@
             android:clickable="true"
             android:layout_below="@+id/PrivacySettingsReminder"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="15dp">
 
         </TextView>
 
@@ -103,7 +117,7 @@
             android:clickable="true"
             android:layout_below="@+id/Enrollment"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="15dp">
 
         </TextView>
 
@@ -118,7 +132,7 @@
             android:clickable="true"
             android:layout_below="@+id/POW"
             android:layout_marginTop="20dp"
-            android:layout_marginLeft="30dp">
+            android:layout_marginLeft="15dp">
 
         </TextView>
 

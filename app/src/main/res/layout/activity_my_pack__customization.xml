@@ -28,7 +28,7 @@
             android:scaleType="fitCenter"
             android:layout_marginTop="60dp"
             android:layout_marginLeft="120dp"
-            android:layout_marginRight="320dp"
+            android:layout_marginRight="300dp"
             android:background="@android:color/transparent"
             />
 
@@ -49,14 +49,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Adjust your updates preferences"
-            android:textColor="#000000"
             android:textSize="15dp"
             android:id="@+id/Adjustcourses"
             android:layout_below="@+id/welcome"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="70dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:textColor="#2C3539"
+            />
 
 
 

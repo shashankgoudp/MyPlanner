@@ -29,7 +29,7 @@
             android:scaleType="fitCenter"
             android:layout_marginTop="60dp"
             android:layout_marginLeft="120dp"
-            android:layout_marginRight="320dp"
+            android:layout_marginRight="300dp"
             android:background="@android:color/transparent"
             />
         <TextView
@@ -37,12 +37,12 @@
             android:layout_height="wrap_content"
             android:text="Human Computer Interaction"
             android:textColor="#000000"
-            android:textSize="24dp"
+            android:textSize="22dp"
             android:id="@+id/UnityID"
             android:layout_below="@+id/Title"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true"
-            android:layout_marginTop="35dp"
+            android:layout_marginTop="23dp"
             android:layout_marginLeft="63dp"
             />
 
@@ -62,6 +62,7 @@
             android:layout_below="@+id/checkbox_Piazza"
             android:textSize="16dp"
             android:layout_marginLeft="40dp"
+            android:textColor="#2C3539"
             />
         <CheckBox android:id="@+id/checkbox_UnreadNotification"
             android:layout_width="wrap_content"
@@ -70,6 +71,7 @@
             android:layout_below="@+id/checkbox_InstNotes"
             android:textSize="16dp"
             android:layout_marginLeft="40dp"
+            android:textColor="#2C3539"
             />
         <RadioButton android:id="@+id/radio_LastWeek"
             android:layout_width="wrap_content"
@@ -105,6 +107,7 @@
             android:layout_below="@+id/checkbox_CourseWebsite"
             android:textSize="16dp"
             android:layout_marginLeft="40dp"
+            android:textColor="#2C3539"
             />
         <CheckBox android:id="@+id/checkbox_LectureNotes"
             android:layout_width="wrap_content"
@@ -113,6 +116,7 @@
             android:layout_below="@+id/checkbox_LectureSlides"
             android:textSize="16dp"
             android:layout_marginLeft="40dp"
+            android:textColor="#2C3539"
             />
         <RadioButton android:id="@+id/radio_LastWeek3"
             android:layout_width="wrap_content"
@@ -145,6 +149,7 @@
             android:layout_below="@+id/checkbox_Moodle"
             android:textSize="16dp"
             android:layout_marginLeft="40dp"
+            android:textColor="#2C3539"
             />
         <CheckBox android:id="@+id/checkbox_PendingAssignments"
             android:layout_width="wrap_content"
@@ -153,6 +158,7 @@
             android:layout_below="@+id/checkbox_Announcements"
             android:textSize="16dp"
             android:layout_marginLeft="40dp"
+            android:textColor="#2C3539"
             />
         <RadioButton android:id="@+id/radio_LastWeek2"
             android:layout_width="wrap_content"
@@ -179,7 +185,7 @@
             android:layout_below="@+id/radio_Last3Days3"
             android:layout_marginTop="20dp"
             android:onClick="onCourseCustomizeSaveClick"
-            android:layout_marginLeft="100dp"
+            android:layout_marginLeft="90dp"
             />
 
         <Button

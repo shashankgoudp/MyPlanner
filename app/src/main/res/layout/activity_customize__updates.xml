@@ -28,7 +28,7 @@
             android:scaleType="fitCenter"
             android:layout_marginTop="60dp"
             android:layout_marginLeft="120dp"
-            android:layout_marginRight="320dp"
+            android:layout_marginRight="300dp"
             android:background="@android:color/transparent"
             />
 
@@ -49,17 +49,18 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Adjust your updates preferences"
-            android:textColor="#000000"
             android:textSize="15dp"
             android:id="@+id/Adjustcourses"
             android:layout_below="@+id/welcome"
             android:layout_marginTop="5dp"
             android:layout_marginLeft="70dp"
             android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_alignParentStart="true"
+            android:textColor="#2C3539"
+            />
 
 
-        <TextView android:layout_width="257dp"
+        <TextView android:layout_width="264dp"
             android:layout_height="wrap_content"
             android:text="My Pack"
             android:textColor="#000000"
@@ -71,11 +72,13 @@
             android:layout_below="@+id/Adjustcourses"
             android:layout_marginTop="50dp"
             android:layout_marginLeft="35dp"
-            android:elevation="10dp" />
+            android:elevation="10dp"
+            android:background="@drawable/my_border"
+            />
 
 
 
-        <TextView android:layout_width="wrap_content"
+        <TextView android:layout_width="264dp"
             android:layout_height="wrap_content"
             android:text="Human Computer Interaction"
             android:textColor="#000000"
@@ -87,9 +90,10 @@
             android:layout_below="@+id/MyPack"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="35dp"
-            android:elevation="10dp" />
+            android:elevation="10dp"
+            android:background="@drawable/my_border" />
 
-        <TextView android:layout_width="257dp"
+        <TextView android:layout_width="264dp"
             android:layout_height="wrap_content"
             android:text="Operating Systems"
             android:textColor="#000000"
@@ -101,9 +105,10 @@
             android:layout_below="@+id/HCITextView"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="35dp"
-            android:elevation="10dp" />
+            android:elevation="10dp"
+            android:background="@drawable/my_border" />
 
-        <TextView android:layout_width="257dp"
+        <TextView android:layout_width="264dp"
             android:layout_height="wrap_content"
             android:text="Software Engineering"
             android:textColor="#000000"
@@ -115,7 +120,8 @@
             android:layout_below="@+id/OSTextView"
             android:layout_marginTop="30dp"
             android:layout_marginLeft="35dp"
-            android:elevation="10dp" />
+            android:elevation="10dp"
+            android:background="@drawable/my_border" />
 
     </RelativeLayout>
 </ScrollView>
