@@ -16,15 +16,15 @@
     <string name="title_activity_my_pack__updates">MyPack_Updates</string>
     <string name="underlinedText_eBills"><u>eBills</u></string>
     <string name="title_activity_course_updates">CourseUpdates</string>
-    <string name="underlinedText_Piazza"><u>Piazza</u></string>
-    <string name="underlinedText_Piazzaid1"><u>Instr Note: Class Cancelled</u></string>
-    <string name="underlinedText_Piazzaid2"><u>DE Student Final Exam</u></string>
-    <string name="underlinedText_Moodle"><u>Moodle</u></string>
-    <string name="underlinedText_Moodleid1"><u>New Assignment Posted</u></string>
-    <string name="underlinedText_Moodleid2"><u>Assignment 8 due in 2 days</u></string>
-    <string name="underlinedText_CourseWebsiteUpdates"><u>Course Website</u></string>
-    <string name="underlinedText_CourseWebsiteUpdatesid1"><u>Lecture Videos</u></string>
-    <string name="underlinedText_CourseWebsiteUpdatesid2"><u>Lecture Notes</u></string>
+    <string name="underlinedText_Piazza">Piazza</string>
+    <string name="underlinedText_Piazzaid1">Instr Note: Class Cancelled</string>
+    <string name="underlinedText_Piazzaid2">DE Student Final Exam</string>
+    <string name="underlinedText_Moodle">Moodle</string>
+    <string name="underlinedText_Moodleid1">New Assignment Posted</string>
+    <string name="underlinedText_Moodleid2">Assignment 8 due in 2 days</string>
+    <string name="underlinedText_CourseWebsiteUpdates">Course Website</string>
+    <string name="underlinedText_CourseWebsiteUpdatesid1">Lecture Videos</string>
+    <string name="underlinedText_CourseWebsiteUpdatesid2">Lecture Notes</string>
     <string name="title_activity_course_customization">course_customization</string>
 
 </resources>
