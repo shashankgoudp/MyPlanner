@@ -13,6 +13,7 @@ public class ForgotPassword extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Forgot Password");
         setContentView(R.layout.activity_forgot_password);
     }
 

@@ -13,6 +13,7 @@ public class CourseUpdates extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Course Updates");
         setContentView(R.layout.activity_course_updates);
     }
 

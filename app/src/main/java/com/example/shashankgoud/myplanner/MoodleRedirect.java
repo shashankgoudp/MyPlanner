@@ -8,6 +8,7 @@ public class MoodleRedirect extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Moodle Redirect");
         setContentView(R.layout.activity_moodle_redirect);
     }
 }

@@ -13,6 +13,7 @@ public class MyPack_Updates extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("MyPack Updates");
         setContentView(R.layout.activity_my_pack__updates);
     }
 

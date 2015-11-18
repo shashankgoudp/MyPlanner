@@ -15,6 +15,7 @@ public class MyPack_Customization extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("MyPack Customization");
         setContentView(R.layout.activity_my_pack__customization);
     }
 

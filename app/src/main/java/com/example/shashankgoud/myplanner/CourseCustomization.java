@@ -11,6 +11,7 @@ public class CourseCustomization extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("Course Customization");
         setContentView(R.layout.activity_course_customization);
 
 

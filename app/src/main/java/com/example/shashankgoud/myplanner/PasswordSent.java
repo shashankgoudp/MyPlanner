@@ -11,6 +11,7 @@ public class PasswordSent extends ActionBarActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTitle("HPassword Sent");
         setContentView(R.layout.activity_password_sent);
     }
 
