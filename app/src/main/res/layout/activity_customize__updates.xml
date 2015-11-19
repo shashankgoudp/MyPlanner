@@ -60,7 +60,7 @@
             />
 
 
-        <TextView android:layout_width="264dp"
+        <TextView android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:text="My Pack"
             android:textColor="@color/text_color"
@@ -74,11 +74,12 @@
             android:layout_marginLeft="35dp"
             android:elevation="10dp"
             android:background="@drawable/my_border"
+            android:paddingLeft="10dp"
             />
 
 
 
-        <TextView android:layout_width="264dp"
+        <TextView android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:text="Human Computer Interaction"
             android:textColor="@color/text_color"
@@ -91,9 +92,10 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="35dp"
             android:elevation="10dp"
-            android:background="@drawable/my_border" />
+            android:background="@drawable/my_border"
+            android:paddingLeft="10dp"/>
 
-        <TextView android:layout_width="264dp"
+        <TextView android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:text="Operating Systems"
             android:textColor="@color/text_color"
@@ -106,9 +108,10 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="35dp"
             android:elevation="10dp"
-            android:background="@drawable/my_border" />
+            android:background="@drawable/my_border"
+            android:paddingLeft="10dp"/>
 
-        <TextView android:layout_width="264dp"
+        <TextView android:layout_width="280dp"
             android:layout_height="wrap_content"
             android:text="Software Engineering"
             android:textColor="@color/text_color"
@@ -121,7 +124,8 @@
             android:layout_marginTop="30dp"
             android:layout_marginLeft="35dp"
             android:elevation="10dp"
-            android:background="@drawable/my_border" />
+            android:background="@drawable/my_border"
+            android:paddingLeft="10dp"/>
 
     </RelativeLayout>
 </ScrollView>
