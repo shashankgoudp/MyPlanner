@@ -92,7 +92,7 @@
             android:layout_height="wrap_content"
             android:text="Last 3 days"
             android:layout_alignLeft="@+id/radio_LastWeek"
-            android:layout_marginLeft="110dp"
+            android:layout_marginLeft="30dp"
             />
 </RadioGroup>
 
@@ -145,7 +145,7 @@
             android:text="Last 3 days"
             android:layout_below="@+id/checkbox_LectureNotes"
             android:layout_alignLeft="@+id/radio_LastWeek"
-            android:layout_marginLeft="110dp"
+            android:layout_marginLeft="30dp"
             />
         </RadioGroup>
 
@@ -195,7 +195,7 @@
             android:text="Last 3 days"
             android:layout_below="@+id/checkbox_PendingAssignments"
             android:layout_alignLeft="@+id/radio_LastWeek"
-            android:layout_marginLeft="110dp"
+            android:layout_marginLeft="30dp"
             />
 </RadioGroup>
 
