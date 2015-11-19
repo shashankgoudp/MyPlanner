@@ -31,21 +31,23 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-
-    <Button android:layout_width="wrap_content"
+    <TextView android:layout_width="264dp"
         android:layout_height="wrap_content"
         android:text="MyPack Notifications"
-        android:textColor="#FF0000"
-        android:id="@+id/mypack"
+        android:textColor="@color/mypack_color"
+        android:autoLink="web"
+        android:id="@+id/MyPack"
         android:textSize="20dp"
+        android:onClick="onMyPackUpdatesClick"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:background="@drawable/my_border"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:onClick="onMyPackUpdatesClick"
-
         android:layout_below="@+id/welcome"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
+        android:layout_alignParentStart="true"
+        />
 
     <TextView
         android:layout_width="wrap_content"
@@ -54,92 +56,102 @@
         android:textColor="#000000"
         android:textSize="30dp"
         android:id="@+id/courses"
-        android:layout_below="@+id/mypack"
+        android:layout_below="@+id/MyPack"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
         />
 
-    <Button android:layout_width="fill_parent"
+    <TextView android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Human Computer Interaction"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
+        android:autoLink="web"
         android:id="@+id/hci"
         android:textSize="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
         android:onClick="onClick"
-
+        android:clickable="true"
+        android:elevation="10dp"
+        android:background="@drawable/my_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_below="@+id/courses"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
+        android:layout_alignParentStart="true"
+        />
 
-    <Button android:layout_width="fill_parent"
+    <TextView android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Operating Systems"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
+        android:autoLink="web"
         android:id="@+id/os"
         android:textSize="20dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="20dp"
-        android:layout_marginLeft="20dp"
         android:onClick="onClick"
-
+        android:clickable="true"
+        android:elevation="10dp"
+        android:background="@drawable/my_border"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
         android:layout_below="@+id/hci"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
+        android:layout_alignParentStart="true"
+        />
 
-    <Button android:layout_width="fill_parent"
+    <TextView android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Software Engineering"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
+        android:autoLink="web"
         android:id="@+id/se"
         android:textSize="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:background="@drawable/my_border"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:onClick="onClick"
-
         android:layout_below="@+id/os"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
+        android:layout_alignParentStart="true"
+        />
 
-    <Button android:layout_width="fill_parent"
+    <TextView android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Internet Protocols"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
+        android:autoLink="web"
         android:id="@+id/ip"
         android:textSize="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:background="@drawable/my_border"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:onClick="onClick"
-
         android:layout_below="@+id/se"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
+        android:layout_alignParentStart="true"
+        />
 
-    <Button android:layout_width="fill_parent"
+    <TextView android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:text="Artificial Intelligence"
-        android:textColor="#000000"
+        android:textColor="@color/text_color"
+        android:autoLink="web"
         android:id="@+id/ai"
         android:textSize="20dp"
+        android:onClick="onClick"
+        android:clickable="true"
+        android:elevation="10dp"
+        android:background="@drawable/my_border"
         android:layout_marginTop="20dp"
         android:layout_marginLeft="20dp"
-        android:layout_marginRight="20dp"
-        android:onClick="onClick"
-
         android:layout_below="@+id/ip"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true">
-    </Button>
+        android:layout_alignParentStart="true"
+        />
 
     <ImageButton
         android:id="@+id/settingsButton"
