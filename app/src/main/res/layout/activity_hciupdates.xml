@@ -37,7 +37,7 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Operating Systems"
+            android:text="Human Computer Interaction"
             android:textColor="#000000"
             android:textSize="22dp"
             android:id="@+id/HCI"
@@ -75,6 +75,7 @@
             android:layout_below="@+id/PiazzaUpdates"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="25dp"
+            android:textStyle="bold"
             android:background="@drawable/my_border"
             android:paddingLeft="10dp"
             >

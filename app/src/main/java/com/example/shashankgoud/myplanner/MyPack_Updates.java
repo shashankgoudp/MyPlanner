@@ -62,4 +62,9 @@ public class MyPack_Updates extends ActionBarActivity {
         Intent i=new Intent(MyPack_Updates.this, MyPackRedirect.class);
         startActivity(i);
     }
+
+    public void gotoHome(View view) {
+        Intent i=new Intent(MyPack_Updates.this, HomeScreenActivity.class);
+        startActivity(i);
+    }
 }

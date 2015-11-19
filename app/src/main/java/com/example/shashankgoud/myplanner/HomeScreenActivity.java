@@ -57,7 +57,7 @@ public class HomeScreenActivity extends ActionBarActivity {
     }
 
     public void hci_onClick(View view) {
-        Intent i=new Intent(HomeScreenActivity.this, CourseUpdates.class);
+        Intent i=new Intent(HomeScreenActivity.this, HCIUpdates.class);
         startActivity(i);
         TextView textView = (TextView) findViewById(R.id.hci);
         textView.setText("Human Computer Interaction");
@@ -70,5 +70,10 @@ public class HomeScreenActivity extends ActionBarActivity {
         startActivity(i);
         textView.setText("MyPack Notifications");
         textView.setTextColor(Color.BLACK);
+    }
+
+    public void gotoHome(View view) {
+        Intent i=new Intent(HomeScreenActivity.this, HomeScreenActivity.class);
+        startActivity(i);
     }
 }

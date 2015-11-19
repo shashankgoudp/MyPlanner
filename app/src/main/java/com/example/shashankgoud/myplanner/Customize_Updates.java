@@ -52,4 +52,9 @@ public class Customize_Updates extends ActionBarActivity {
         startActivity(i);
     }
 
+    public void gotoHome(View view) {
+        Intent i=new Intent(Customize_Updates.this, HomeScreenActivity.class);
+        startActivity(i);
+    }
+
 }

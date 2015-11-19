@@ -54,6 +54,8 @@
         </activity>
         <activity android:name=".MyPackRedirect" >
         </activity>
+        <activity android:name=".HCIUpdates" >
+        </activity>
     </application>
 
 </manifest>

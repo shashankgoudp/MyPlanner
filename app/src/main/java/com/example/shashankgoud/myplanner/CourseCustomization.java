@@ -87,4 +87,9 @@ public class CourseCustomization extends AppCompatActivity {
         Intent i=new Intent(CourseCustomization.this, Customize_Updates.class);
         startActivity(i);
     }
+
+    public void gotoHome(View view) {
+        Intent i=new Intent(CourseCustomization.this, HomeScreenActivity.class);
+        startActivity(i);
+    }
 }

@@ -20,6 +20,11 @@ public class CourseUpdates extends AppCompatActivity {
         setContentView(R.layout.activity_course_updates);
     }
 
+    public void gotoHome(View view) {
+        Intent i=new Intent(CourseUpdates.this, HomeScreenActivity.class);
+        startActivity(i);
+    }
+
     public void gotoPiazza(View view) {
         Intent i=new Intent(CourseUpdates.this, PiazzaRedirect.class);
         startActivity(i);

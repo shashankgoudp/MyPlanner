@@ -59,4 +59,9 @@ public class MyPack_Customization extends ActionBarActivity {
         }
 
     }
+
+    public void gotoHome(View view) {
+        Intent i=new Intent(MyPack_Customization.this, HomeScreenActivity.class);
+        startActivity(i);
+    }
 }
