@@ -62,8 +62,8 @@
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="@string/underlinedText_Piazzaid1"
             android:textColor="@color/text_color"
             android:autoLink="web"
@@ -74,11 +74,27 @@
             android:layout_below="@+id/PiazzaUpdates"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="25dp"
-            android:textStyle="bold">
+            android:textStyle="bold"
+            android:background="@drawable/my_border"
+            >
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:id="@+id/arrow2"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="167dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="@string/underlinedText_Piazzaid2"
             android:textColor="@color/text_color"
             android:autoLink="web"
@@ -87,13 +103,26 @@
             android:onClick="gotoPiazza"
             android:clickable="true"
             android:layout_below="@+id/PiazzaUpdatesid1"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="0dp"
             android:layout_marginLeft="25dp"
-
+            android:background="@drawable/my_border"
             >
 
         </TextView>
 
+        <ImageButton
+            android:id="@+id/arrow3"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="217dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
 
 
         <TextView android:layout_width="wrap_content"
@@ -113,8 +142,8 @@
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="@string/underlinedText_Moodleid1"
             android:textColor="@color/text_color"
             android:autoLink="web"
@@ -125,12 +154,27 @@
             android:layout_below="@+id/MoodleUpdates"
             android:layout_marginTop="10dp"
             android:layout_marginLeft="25dp"
+            android:background="@drawable/my_border"
             >
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:id="@+id/arrow4"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="327dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="@string/underlinedText_Moodleid2"
             android:textColor="@color/text_color"
             android:autoLink="web"
@@ -139,10 +183,26 @@
             android:onClick="gotoMoodle"
             android:clickable="true"
             android:layout_below="@+id/MoodleUpdatesid1"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp">
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/my_border"
+            >
 
         </TextView>
+
+        <ImageButton
+            android:id="@+id/arrow5"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="377dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
 
         <TextView android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -159,8 +219,8 @@
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="@string/underlinedText_CourseWebsiteUpdatesid1"
             android:textColor="@color/text_color"
             android:autoLink="web"
@@ -170,12 +230,28 @@
             android:clickable="true"
             android:layout_below="@+id/CourseWebsiteUpdates"
             android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp">
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/my_border"
+            >
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:id="@+id/arrow6"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="487dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="@string/underlinedText_CourseWebsiteUpdatesid2"
             android:textColor="@color/text_color"
             android:autoLink="web"
@@ -184,10 +260,26 @@
             android:onClick="gotoCourseWebsite"
             android:clickable="true"
             android:layout_below="@+id/CourseWebsiteUpdatesid1"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="25dp">
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="25dp"
+            android:background="@drawable/my_border"
+            >
 
         </TextView>
+
+        <ImageButton
+            android:id="@+id/arrow7"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="537dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
 
     </RelativeLayout>
 </ScrollView>
