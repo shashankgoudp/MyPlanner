@@ -1,11 +1,13 @@
 package com.example.shashankgoud.myplanner;
 
 import android.content.Intent;
+import android.graphics.Color;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.TextView;
 
 
 public class HomeScreenActivity extends ActionBarActivity {
@@ -54,7 +56,10 @@ public class HomeScreenActivity extends ActionBarActivity {
     }
 
     public void onMyPackUpdatesClick(View view) {
+        TextView textView = (TextView) findViewById(R.id.MyPack);
         Intent i=new Intent(HomeScreenActivity.this, MyPack_Updates.class);
         startActivity(i);
+        textView.setText("MyPack Notifications");
+        textView.setTextColor(Color.BLACK);
     }
 }
