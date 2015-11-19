@@ -74,22 +74,27 @@
             android:layout_marginLeft="40dp"
             android:textColor="#2C3539"
             />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/checkbox_UnreadNotification"
+            android:id="@+id/radiogroup2"
+            >
         <RadioButton android:id="@+id/radio_LastWeek"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Last Week"
-            android:layout_below="@+id/checkbox_UnreadNotification"
             android:layout_marginLeft="25dp"
             />
         <RadioButton android:id="@+id/radio_Last3Days"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Last 3 days"
-            android:layout_below="@+id/checkbox_UnreadNotification"
             android:layout_alignLeft="@+id/radio_LastWeek"
             android:layout_marginLeft="110dp"
             />
-
+</RadioGroup>
 
 
 
@@ -97,7 +102,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Course Website"
-            android:layout_below="@+id/radio_Last3Days2"
+            android:layout_below="@+id/radiogroup3"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"
             />
@@ -119,6 +124,14 @@
             android:layout_marginLeft="40dp"
             android:textColor="#2C3539"
             />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/checkbox_LectureNotes"
+            android:id="@+id/radiogroup1"
+            >
+
         <RadioButton android:id="@+id/radio_LastWeek3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -134,12 +147,13 @@
             android:layout_alignLeft="@+id/radio_LastWeek"
             android:layout_marginLeft="110dp"
             />
+        </RadioGroup>
 
         <CheckBox android:id="@+id/checkbox_Moodle"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Moodle"
-            android:layout_below="@+id/radio_LastWeek"
+            android:layout_below="@+id/radiogroup2"
             android:textSize="20dp"
             android:layout_marginLeft="25dp"
             />
@@ -161,6 +175,13 @@
             android:layout_marginLeft="40dp"
             android:textColor="#2C3539"
             />
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_below="@+id/checkbox_PendingAssignments"
+            android:id="@+id/radiogroup3"
+            >
         <RadioButton android:id="@+id/radio_LastWeek2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -176,14 +197,14 @@
             android:layout_alignLeft="@+id/radio_LastWeek"
             android:layout_marginLeft="110dp"
             />
-
+</RadioGroup>
 
         <Button
             android:layout_width="100dp"
             android:layout_height="50dp"
             android:text="Save"
             android:id="@+id/button_Save"
-            android:layout_below="@+id/radio_Last3Days3"
+            android:layout_below="@+id/radiogroup1"
             android:layout_marginTop="20dp"
             android:onClick="onCourseCustomizeSaveClick"
             android:layout_marginLeft="90dp"
@@ -194,7 +215,7 @@
             android:layout_height="50dp"
             android:text="Clear"
             android:id="@+id/button_Clear"
-            android:layout_below="@+id/radio_Last3Days3"
+            android:layout_below="@+id/radiogroup1"
             android:layout_marginTop="20dp"
             android:onClick="clearOnClick"
             android:layout_marginLeft="200dp"
