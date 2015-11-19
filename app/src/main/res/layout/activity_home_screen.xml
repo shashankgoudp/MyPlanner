@@ -31,9 +31,9 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
-    <TextView android:layout_width="264dp"
+    <TextView android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="MyPack Notifications"
+        android:text="MyPack Notifications (2)"
         android:textColor="@color/mypack_color"
         android:autoLink="web"
         android:id="@+id/MyPack"
@@ -42,7 +42,7 @@
         android:clickable="true"
         android:elevation="10dp"
         android:background="@drawable/my_border"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="70dp"
         android:layout_marginLeft="20dp"
         android:layout_below="@+id/welcome"
         android:layout_alignParentLeft="true"
@@ -65,8 +65,8 @@
 
     <TextView android:layout_width="300dp"
         android:layout_height="wrap_content"
-        android:text="Human Computer Interaction"
-        android:textColor="@color/text_color"
+        android:text="Human Computer Interaction (1)"
+        android:textColor="@color/text_color_unread"
         android:autoLink="web"
         android:id="@+id/hci"
         android:textSize="20dp"
