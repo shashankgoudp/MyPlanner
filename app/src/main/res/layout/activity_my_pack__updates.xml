@@ -45,8 +45,8 @@
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="New eBill has been posted"
             android:textColor="#000000"
             android:autoLink="web"
@@ -58,12 +58,28 @@
             android:layout_marginTop="50dp"
             android:layout_marginLeft="15dp"
             android:textStyle="bold"
+            android:background="@drawable/my_border"
             >
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:id="@+id/arrow1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="130dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="100dp"
+            android:background="@android:color/transparent"
+            android:layout_toRightOf="@+id/eBill"
+
+            />
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="Final ETD Deadline"
             android:textColor="#000000"
             android:autoLink="web"
@@ -72,15 +88,43 @@
             android:onClick="gotoMyPack"
             android:clickable="true"
             android:layout_below="@+id/eBill"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="0dp"
             android:layout_marginLeft="15dp"
             android:textStyle="bold"
+            android:background="@drawable/my_border"
             >
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+        <ImageButton
+            android:id="@+id/arrow3"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="196dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
+        <ImageButton
+            android:id="@+id/arrow2"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="147dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
             android:text="Privacy Settings Reminder"
             android:textColor="#000000"
             android:autoLink="web"
@@ -89,15 +133,30 @@
             android:onClick="gotoMyPack"
             android:clickable="true"
             android:layout_below="@+id/ETDDeadline"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp">
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/my_border"
+            >
 
         </TextView>
 
+        <ImageButton
+            android:id="@+id/arrow4"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="246dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Spring Semester Enrollment Start Date: Oct 20 2015"
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Enrollment Start Date: Oct 20 2015"
             android:textColor="#000000"
             android:autoLink="web"
             android:id="@+id/Enrollment"
@@ -105,14 +164,30 @@
             android:onClick="gotoMyPack"
             android:clickable="true"
             android:layout_below="@+id/PrivacySettingsReminder"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp">
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/my_border"
+            >
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Plan of Work Due Date: Nov 4 2015"
+        <ImageButton
+            android:id="@+id/arrow5"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="296dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Plan of Work Due Date: Oct 4 2015"
             android:textColor="#000000"
             android:autoLink="web"
             android:id="@+id/POW"
@@ -120,14 +195,30 @@
             android:onClick="gotoMyPack"
             android:clickable="true"
             android:layout_below="@+id/Enrollment"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp">
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/my_border"
+            >
 
         </TextView>
 
-        <TextView android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Apply for Graduation Due Date: Nov 4 2015"
+        <ImageButton
+            android:id="@+id/arrow6"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="346dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
+
+        <TextView android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:text="Graduation Application: Nov 4 2015"
             android:textColor="#000000"
             android:autoLink="web"
             android:id="@+id/AFG"
@@ -135,10 +226,26 @@
             android:onClick="gotoMyPack"
             android:clickable="true"
             android:layout_below="@+id/POW"
-            android:layout_marginTop="20dp"
-            android:layout_marginLeft="15dp">
+            android:layout_marginTop="0dp"
+            android:layout_marginLeft="15dp"
+            android:background="@drawable/my_border"
+            >
 
         </TextView>
+
+        <ImageButton
+            android:id="@+id/arrow7"
+            android:layout_width="20dp"
+            android:layout_height="50dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/arrow"
+            android:scaleType="fitCenter"
+            android:layout_marginTop="396dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="45dp"
+            android:background="@android:color/transparent"
+            />
 
     </RelativeLayout>
 </ScrollView>
