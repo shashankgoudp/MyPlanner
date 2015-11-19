@@ -57,4 +57,9 @@ public class MyPack_Updates extends ActionBarActivity {
         startActivity(i);
         textView.setTypeface(null, Typeface.NORMAL);
     }
+
+    public void gotoMyPack(View view) {
+        Intent i=new Intent(MyPack_Updates.this, MyPackRedirect.class);
+        startActivity(i);
+    }
 }

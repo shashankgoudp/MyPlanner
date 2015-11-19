@@ -70,7 +70,7 @@
         android:autoLink="web"
         android:id="@+id/hci"
         android:textSize="20dp"
-        android:onClick="onClick"
+        android:onClick="hci_onClick"
         android:clickable="true"
         android:elevation="10dp"
         android:background="@drawable/my_border"

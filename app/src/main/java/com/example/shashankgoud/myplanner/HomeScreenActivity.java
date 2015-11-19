@@ -2,6 +2,7 @@ package com.example.shashankgoud.myplanner;
 
 import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -53,6 +54,14 @@ public class HomeScreenActivity extends ActionBarActivity {
     public void onClick(View view) {
         Intent i=new Intent(HomeScreenActivity.this, CourseUpdates.class);
         startActivity(i);
+    }
+
+    public void hci_onClick(View view) {
+        Intent i=new Intent(HomeScreenActivity.this, CourseUpdates.class);
+        startActivity(i);
+        TextView textView = (TextView) findViewById(R.id.hci);
+        textView.setText("Human Computer Interaction");
+        textView.setTextColor(Color.BLACK);
     }
 
     public void onMyPackUpdatesClick(View view) {
