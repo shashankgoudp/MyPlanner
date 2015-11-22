@@ -44,7 +44,7 @@
         android:textSize="20dp"
         android:id="@+id/welcome"
         android:layout_below="@+id/Title"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="40dp"
         android:layout_marginLeft="20dp"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
@@ -224,7 +224,7 @@
         android:layout_alignParentRight="true"
         android:src="@drawable/gear"
         android:scaleType="fitCenter"
-        android:layout_marginTop="45dp"
+        android:layout_marginTop="60dp"
         android:layout_marginLeft="120dp"
         android:layout_marginRight="10dp"
         android:onClick="customizeClick"
