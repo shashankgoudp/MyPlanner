@@ -76,4 +76,9 @@ public class HomeScreenActivity extends ActionBarActivity {
         Intent i=new Intent(HomeScreenActivity.this, HomeScreenActivity.class);
         startActivity(i);
     }
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(HomeScreenActivity.this, MainActivity.class);
+        startActivity(i);
+    }
+
 }
