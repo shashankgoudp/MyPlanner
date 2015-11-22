@@ -27,7 +27,7 @@
         android:layout_alignParentRight="true"
         android:src="@drawable/power"
         android:scaleType="fitCenter"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="2dp"
         android:layout_marginLeft="0dp"
         android:layout_marginRight="20dp"
         android:onClick="onLogoutClick"
