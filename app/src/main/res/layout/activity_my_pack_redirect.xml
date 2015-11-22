@@ -21,10 +21,26 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
+    <ImageButton
+        android:id="@+id/logoutButton"
+        android:layout_width="40dp"
+        android:layout_height="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:src="@drawable/power"
+        android:scaleType="fitCenter"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="20dp"
+        android:onClick="onLogoutClick"
+        android:background="@android:color/transparent"
+
+        />
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="User redirected to MyPack."
+        android:text="You will be redirected to MyPack."
         android:textColor="#000000"
         android:textSize="25dp"
         android:id="@+id/EmailID"

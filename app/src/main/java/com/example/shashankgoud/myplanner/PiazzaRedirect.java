@@ -18,4 +18,9 @@ public class PiazzaRedirect extends AppCompatActivity {
         Intent i=new Intent(PiazzaRedirect.this, HomeScreenActivity.class);
         startActivity(i);
     }
+
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(PiazzaRedirect.this, MainActivity.class);
+        startActivity(i);
+    }
 }

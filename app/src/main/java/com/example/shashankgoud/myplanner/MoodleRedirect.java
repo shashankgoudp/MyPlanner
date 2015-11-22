@@ -18,4 +18,8 @@ public class MoodleRedirect extends AppCompatActivity {
         Intent i=new Intent(MoodleRedirect.this, HomeScreenActivity.class);
         startActivity(i);
     }
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(MoodleRedirect.this, MainActivity.class);
+        startActivity(i);
+    }
 }

@@ -18,4 +18,8 @@ public class MyPackRedirect extends AppCompatActivity {
         Intent i=new Intent(MyPackRedirect.this, HomeScreenActivity.class);
         startActivity(i);
     }
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(MyPackRedirect.this, MainActivity.class);
+        startActivity(i);
+    }
 }

@@ -56,5 +56,8 @@ public class Customize_Updates extends ActionBarActivity {
         Intent i=new Intent(Customize_Updates.this, HomeScreenActivity.class);
         startActivity(i);
     }
-
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(Customize_Updates.this, MainActivity.class);
+        startActivity(i);
+    }
 }

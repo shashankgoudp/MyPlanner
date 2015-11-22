@@ -36,4 +36,8 @@ public class HCIUpdates extends AppCompatActivity {
         Intent i=new Intent(HCIUpdates.this, HomeScreenActivity.class);
         startActivity(i);
     }
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(HCIUpdates.this, MainActivity.class);
+        startActivity(i);
+    }
 }

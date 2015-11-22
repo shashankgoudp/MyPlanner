@@ -46,4 +46,8 @@ public class ForgotPassword extends ActionBarActivity {
         startActivity(i);
 
     }
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(ForgotPassword.this, MainActivity.class);
+        startActivity(i);
+    }
 }
