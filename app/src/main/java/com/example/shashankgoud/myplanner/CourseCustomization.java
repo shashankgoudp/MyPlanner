@@ -92,4 +92,9 @@ public class CourseCustomization extends AppCompatActivity {
         Intent i=new Intent(CourseCustomization.this, HomeScreenActivity.class);
         startActivity(i);
     }
+
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(CourseCustomization.this, MainActivity.class);
+        startActivity(i);
+    }
 }

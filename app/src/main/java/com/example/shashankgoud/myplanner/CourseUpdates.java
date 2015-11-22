@@ -42,4 +42,9 @@ public class CourseUpdates extends AppCompatActivity {
         startActivity(i);
     }
 
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(CourseUpdates.this, MainActivity.class);
+        startActivity(i);
+    }
+
 }

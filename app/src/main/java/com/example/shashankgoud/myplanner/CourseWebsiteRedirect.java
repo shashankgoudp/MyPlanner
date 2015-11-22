@@ -17,4 +17,9 @@ public class CourseWebsiteRedirect extends AppCompatActivity {
         Intent i=new Intent(CourseWebsiteRedirect.this, HomeScreenActivity.class);
         startActivity(i);
     }
+
+    public void onLogoutClick(View view) {
+        Intent i=new Intent(CourseWebsiteRedirect.this, MainActivity.class);
+        startActivity(i);
+    }
 }
